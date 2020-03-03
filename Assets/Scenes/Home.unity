@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Home_Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6319764649183255721, guid: 0f8a327df2d7148babf16b7d892b6bf2,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6319764649183255723, guid: 0f8a327df2d7148babf16b7d892b6bf2,
         type: 3}
       propertyPath: m_LocalPosition.x
