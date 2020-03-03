@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kk/values-kk.xml",
+            "map": [
+                {
+                    "source": "/Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/res/values-kk/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,235,288,436,587",
+                        "endColumns": "44,52,147,150,86",
+                        "endOffsets": "234,287,435,586,673"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,104,161,313,468",
+                        "endColumns": "48,56,151,154,90",
+                        "endOffsets": "99,156,308,463,554"
+                    }
+                }
+            ]
+        }
+    ]
+}

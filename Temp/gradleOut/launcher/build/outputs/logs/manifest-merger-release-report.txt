@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-71:12
+MERGED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:17:1-46:12
+MERGED from [:arcore_rendering_utils:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/c07485ad72228133c5f1c4f7cc867e8e/AndroidManifest.xml:2:1-11:12
+MERGED from [:arcore_unity:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/1e1dd25cebb866f198572a4cd3d93316/AndroidManifest.xml:2:1-11:12
+MERGED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:2:1-19:12
+MERGED from [:unityandroidpermissions:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/670e00e09d22b91cd9b0527c378cd61a/AndroidManifest.xml:6:1-15:12
+MERGED from [:unitygar:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/14b00eefeaa9b90a3d50c0c6579f6b2e/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-97
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:98-144
+	android:versionCode
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:145-185
+supports-screens
+ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
+application
+ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-69:19
+MERGED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-69:19
+MERGED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:30:5-44:19
+MERGED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:30:5-44:19
+MERGED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:13:5-17:19
+MERGED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:13:5-17:19
+	android:label
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+	android:icon
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-80
+uses-sdk
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+MERGED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:26:5-28:41
+MERGED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:26:5-28:41
+MERGED from [:arcore_rendering_utils:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/c07485ad72228133c5f1c4f7cc867e8e/AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_rendering_utils:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/c07485ad72228133c5f1c4f7cc867e8e/AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_unity:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/1e1dd25cebb866f198572a4cd3d93316/AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_unity:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/1e1dd25cebb866f198572a4cd3d93316/AndroidManifest.xml:7:5-9:41
+MERGED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:7:5-44
+MERGED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:7:5-44
+MERGED from [:unityandroidpermissions:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/670e00e09d22b91cd9b0527c378cd61a/AndroidManifest.xml:11:5-13:41
+MERGED from [:unityandroidpermissions:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/670e00e09d22b91cd9b0527c378cd61a/AndroidManifest.xml:11:5-13:41
+MERGED from [:unitygar:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/14b00eefeaa9b90a3d50c0c6579f6b2e/AndroidManifest.xml:7:5-9:41
+MERGED from [:unitygar:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/14b00eefeaa9b90a3d50c0c6579f6b2e/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:19-51
+uses-permission#android.permission.CAMERA
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-62
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-86
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:22-83
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-49:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-51
+	android:launchMode
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-194
+	android:theme
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-54
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:13-45:40
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:13-48:40
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:17-37
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:17-53
+meta-data#unity.tango-enable
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:9-53:36
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:13-46
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:9-56:36
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:13-61
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:9-59:33
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-30
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:9-65:50
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:13-47
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:9-68:68
+	android:value
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:13-65
+	android:name
+		ADDED from [:unityLibrary] /Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-42
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [:arcore_client:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/AndroidManifest.xml:38:13-62
+uses-feature#android.hardware.camera.ar
+ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:10:9-50
+meta-data#com.google.ar.core
+ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:14:9-16:40
+	android:value
+		ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:google_ar_required:] /Users/fredpan/.gradle/caches/transforms-2/files-2.1/adc477ac46e7fc5d00615b6714ac49ef/AndroidManifest.xml:15:13-46

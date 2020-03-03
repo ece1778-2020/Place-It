@@ -1,0 +1,4 @@
+#Mon Mar 02 19:54:21 EST 2020
+base.0=/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

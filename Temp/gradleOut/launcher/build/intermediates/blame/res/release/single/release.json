@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/raw_keep_arcore.xml.flat",
+        "source": "/Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/res/raw/keep_arcore.xml"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/layout___arcore_education.xml.flat",
+        "source": "/Users/fredpan/.gradle/caches/transforms-2/files-2.1/579a9a5c0c3c9d3e2bbe74590d0f5155/res/layout/__arcore_education.xml"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-ldpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-ldpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-hdpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Users/fredpan/Documents/GitHub/Place-It/Temp/gradleOut/launcher/src/main/res/mipmap-mdpi/app_icon.png"
+    }
+]
