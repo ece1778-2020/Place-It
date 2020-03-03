@@ -89,31 +89,67 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <param name="gesture">The current gesture.</param>
         protected override void OnEndManipulation(TapGesture gesture)
         {
+            Debug.Log("\n\n\n\n==============On Ending Tap");
             if (gesture.WasCancelled)
             {
+                Debug.Log("\n\n\n\n==============gesture.WasCancelled");
                 return;
             }
 
             if (ManipulationSystem.Instance == null)
             {
+                Debug.Log("\n\n\n\n==============ManipulationSystem.Instance == null");
                 return;
             }
 
             GameObject target = gesture.TargetObject;
             if (target == gameObject)
             {
+                Debug.Log("\n\n\n\n==============Finish Tap");
+                Debug.Log(target.name);
+                try{
+                    target.tag = "selectable";
+                    Debug.Log("\n\n\n\n==============Added Tag");
+                }
+                catch{
+                    Debug.Log("\n\n\n\n====== Can't add Tag");
+                }
                 Select();
             }
 
+            Debug.Log("\n\n\n\n==============Init ray");
             // Raycast against the location the player touched to search for planes.
-            TrackableHit hit;
-            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon;
+            //TrackableHit hit;
+            //TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon;
+            //Debug.Log("\n\n\n\n==============Init Finished");
+            //bool flag = Frame.Raycast(
+            //    gesture.StartPosition.x, gesture.StartPosition.y, raycastFilter, out hit);
 
-            if (!Frame.Raycast(
-                gesture.StartPosition.x, gesture.StartPosition.y, raycastFilter, out hit))
+            // Bit shift the index of the layer (8) to get a bit mask
+            int layerMask = 1 << 8;
+
+            // This would cast rays only against colliders in layer 8.
+            // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
+            layerMask = ~layerMask;
+            RaycastHit hit;
+            // Does the ray intersect any objects excluding the player layer
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
             {
-                Deselect();
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+                Debug.Log("\n\nDid Hit");
             }
+            else
+            {
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
+                Debug.Log("\n\nDid not Hit");
+            }
+            //Debug.Log("\n\n\n\n==============flag="+ flag.ToString());
+            //if (!flag)
+            //{
+            //    Debug.Log("\n\n\n\n==============ray cast");
+            //    Deselect();
+            //}
+            Debug.Log("\n\n\n\n==============End of function");
         }
 
         /// <summary>

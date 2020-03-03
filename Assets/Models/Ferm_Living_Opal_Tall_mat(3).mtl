@@ -1,0 +1,98 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 03.12.2018 14:11:54
+
+newmtl Ferm_Living_Opal_Tall_mat3_mtl_1
+	Ns 10.0000
+	Ni 1.5000
+	d 0.7373
+	Tr 0.2627
+	Tf 0.7373 0.7373 0.7373 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9961 0.9961 0.9961
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Ferm_Living_Opal_Tall_mat3_mtl_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3922 0.1961 0.1647
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Ferm_Living_Opal_Tall_mat3_mtl_3
+	Ns 10.0000
+	Ni 1.5000
+	d 0.0196
+	Tr 0.9804
+	Tf 0.0196 0.0196 0.0196 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Ferm_Living_Opal_Tall_mat3_mtl_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9804 0.9804 0.9804
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka dcmap_Ferm Living_Opal Lampshades_diff(4).jpg
+	map_Kd dcmap_Ferm Living_Opal Lampshades_diff(4).jpg
+	map_bump dcmap_Ferm Living_Opal Lampshades_refl_bump.jpg
+	bump dcmap_Ferm Living_Opal Lampshades_refl_bump.jpg
+
+newmtl Ferm_Living_Opal_Tall_mat3_mtl_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1765 0.1765 0.1765
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Ferm_Living_Opal_Tall_mat1_mtl_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4863 0.4078 0.2824
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka dcmap_Ferm Living_Opal Lampshades_diff.jpg
+	map_Kd dcmap_Ferm Living_Opal Lampshades_diff.jpg
+	map_bump dcmap_Ferm Living_Opal Lampshades_anisotr_bump.jpg
+	bump dcmap_Ferm Living_Opal Lampshades_anisotr_bump.jpg
+
+newmtl Ferm_Living_Opal_Tall_mat1_mtl_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4863 0.4078 0.2824
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka dcmap_Ferm Living_Opal Lampshades_diff(1).jpg
+	map_Kd dcmap_Ferm Living_Opal Lampshades_diff(1).jpg
+	map_bump dcmap_Ferm Living_Opal Lampshades_anisotr_bump(1).jpg
+	bump dcmap_Ferm Living_Opal Lampshades_anisotr_bump(1).jpg
