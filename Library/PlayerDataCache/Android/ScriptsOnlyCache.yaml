@@ -23,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -31,8 +30,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Home.unity:
     - Class: 1
@@ -54,19 +51,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11210}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 12028}
     - Class: 114
-      Script: {instanceID: 13704}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 15876}
+      Script: {instanceID: 13218}
+    - Class: 114
+      Script: {instanceID: 13724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -74,6 +73,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -107,45 +108,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11210}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 11946}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 12028}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12248}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12650}
+      Script: {instanceID: 12614}
     - Class: 114
-      Script: {instanceID: 12844}
+      Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13218}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13222}
     - Class: 114
-      Script: {instanceID: 13362}
+      Script: {instanceID: 13326}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -503,6 +504,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenNewScene
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -935,14 +942,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d91fcd9ac7bd86d3d771dd6171620fad
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OpenNewScene
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/PlaceIt.unity
-  playerPath: /Users/fredpan/Documents/GitHub/Place-It/123.apk
+  playerPath: C:/Software/GitHub/Place-It/123.apk
