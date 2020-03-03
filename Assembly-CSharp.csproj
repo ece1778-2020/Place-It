@@ -238,6 +238,7 @@
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
+     <Compile Include="Assets\OpenNew.cs" />
      <Compile Include="Assets\Scripts\ObjMovement.cs" />
      <Compile Include="Assets\Scripts\OpenNewScene.cs" />
      <Compile Include="Assets\Scripts\SampleController.cs" />

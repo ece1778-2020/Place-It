@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.ObjectManipulation.SelectionManipulator
     - GoogleARCore.Examples.ObjectManipulation.TranslationManipulator
     - ObjMovement
+    - OpenNew
     - OpenNewScene
     - SampleController
     Unity.Rider.Editor.dll:
@@ -68,29 +69,31 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11210}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 11516}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12314}
+      Script: {instanceID: 12338}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 12612}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13218}
+      Script: {instanceID: 13246}
     - Class: 114
-      Script: {instanceID: 13440}
+      Script: {instanceID: 13468}
     - Class: 114
-      Script: {instanceID: 13724}
+      Script: {instanceID: 13752}
+    - Class: 114
+      Script: {instanceID: 38572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -135,61 +138,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11210}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11516}
+      Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 11896}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 11946}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 11964}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 12436}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12460}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 12596}
     - Class: 114
-      Script: {instanceID: 12614}
+      Script: {instanceID: 12612}
     - Class: 114
-      Script: {instanceID: 12688}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12712}
     - Class: 114
-      Script: {instanceID: 12808}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 12898}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 13040}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 13218}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 13246}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 13250}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13354}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13406}
     - Class: 114
-      Script: {instanceID: 13724}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 16448}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 16452}
+      Script: {instanceID: 13752}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -249,6 +252,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
     className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: fcf9b338c944cfabe21a6ae291dd5ee9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleController
   - hash:
       serializedVersion: 2
       Hash: 5bd9a19c7b5f76c563418e28f48a561b
@@ -665,6 +674,12 @@ ScriptsOnlyBuild:
     className: NetworkStartPosition
   - hash:
       serializedVersion: 2
+      Hash: 8d7f37845c96e8c8941a7630b98e20b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneNavigator
+  - hash:
+      serializedVersion: 2
       Hash: 1ab92b1501bff4203df13dd5880207c1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.AugmentedFaces
@@ -675,6 +690,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
     className: InstantPreviewTrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 1ddae437a29ccb57f3c5772e17d1b33c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjMovement
   - hash:
       serializedVersion: 2
       Hash: dee9174fd158bb09af9191e98e85a290
@@ -989,22 +1010,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: fcf9b338c944cfabe21a6ae291dd5ee9
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SampleController
-  - hash:
-      serializedVersion: 2
-      Hash: 8d7f37845c96e8c8941a7630b98e20b9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneNavigator
-  - hash:
-      serializedVersion: 2
-      Hash: 1ddae437a29ccb57f3c5772e17d1b33c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ObjMovement
+    className: OpenNew
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
