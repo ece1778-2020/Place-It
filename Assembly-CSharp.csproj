@@ -243,6 +243,8 @@
      <Compile Include="Assets\Scripts\OpenNewScene.cs" />
      <Compile Include="Assets\Scripts\SampleController.cs" />
      <Compile Include="Assets\Scripts\SceneNavigator.cs" />
+     <Compile Include="Assets\SetValue.cs" />
+     <Compile Include="Assets\itemButton.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

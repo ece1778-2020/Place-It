@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - OpenNew
     - OpenNewScene
     - SampleController
+    - SetValue
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -54,11 +55,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -75,25 +84,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 12052}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12090}
+      Script: {instanceID: 12092}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12894}
+      Script: {instanceID: 12902}
     - Class: 114
-      Script: {instanceID: 12912}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,53 +155,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11920}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11990}
     - Class: 114
-      Script: {instanceID: 12052}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12464}
     - Class: 114
-      Script: {instanceID: 12596}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12638}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12712}
+      Script: {instanceID: 12718}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12730}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 12836}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 12926}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13250}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13356}
+      Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 13408}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13462}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 13654}
     - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13762}
+    - Class: 114
+      Script: {instanceID: 22254}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -254,7 +265,7 @@ ScriptsOnlyBuild:
     className: Anchor
   - hash:
       serializedVersion: 2
-      Hash: fcf9b338c944cfabe21a6ae291dd5ee9
+      Hash: 79f6500e5c01cc8cb04aff0351394f47
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleController
@@ -1014,6 +1025,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetValue
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
