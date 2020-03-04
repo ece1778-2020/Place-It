@@ -89,11 +89,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13246}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13752}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 38572}
+      Script: {instanceID: 13754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -184,15 +184,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13250}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13356}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 13646}
     - Class: 114
-      Script: {instanceID: 13752}
+      Script: {instanceID: 13754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -838,6 +838,12 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenNew
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.Common
     className: DetectedPlaneVisualizer
   - hash:
@@ -1008,12 +1014,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OpenNew
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
