@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlaceIt.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MeasureIt.unity
+    guid: d541c4293952640ccb0db04132efc8c4
   m_configObjects: {}

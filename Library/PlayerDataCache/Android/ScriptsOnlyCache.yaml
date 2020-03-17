@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.ObjectManipulation.ScaleManipulator
     - GoogleARCore.Examples.ObjectManipulation.SelectionManipulator
     - GoogleARCore.Examples.ObjectManipulation.TranslationManipulator
+    - Measure
     - ObjMovement
     - OpenNew
     - OpenNewScene
@@ -78,31 +79,31 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11488}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 12054}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 12342}
+      Script: {instanceID: 12390}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12946}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13298}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13354}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13808}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -112,6 +113,95 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MeasureIt.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11282}
+    - Class: 114
+      Script: {instanceID: 11418}
+    - Class: 114
+      Script: {instanceID: 11538}
+    - Class: 114
+      Script: {instanceID: 11970}
+    - Class: 114
+      Script: {instanceID: 12010}
+    - Class: 114
+      Script: {instanceID: 12020}
+    - Class: 114
+      Script: {instanceID: 12102}
+    - Class: 114
+      Script: {instanceID: 12324}
+    - Class: 114
+      Script: {instanceID: 12512}
+    - Class: 114
+      Script: {instanceID: 12648}
+    - Class: 114
+      Script: {instanceID: 12764}
+    - Class: 114
+      Script: {instanceID: 12776}
+    - Class: 114
+      Script: {instanceID: 12886}
+    - Class: 114
+      Script: {instanceID: 12978}
+    - Class: 114
+      Script: {instanceID: 13068}
+    - Class: 114
+      Script: {instanceID: 13120}
+    - Class: 114
+      Script: {instanceID: 13298}
+    - Class: 114
+      Script: {instanceID: 13302}
+    - Class: 114
+      Script: {instanceID: 13408}
+    - Class: 114
+      Script: {instanceID: 13460}
+    - Class: 114
+      Script: {instanceID: 13514}
+    - Class: 114
+      Script: {instanceID: 13698}
+    - Class: 114
+      Script: {instanceID: 13808}
+    - Class: 114
+      Script: {instanceID: 23896}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -147,63 +237,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11232}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11418}
     - Class: 114
-      Script: {instanceID: 11488}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 11972}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 12038}
     - Class: 114
-      Script: {instanceID: 12054}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12464}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 12648}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12664}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12690}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 12844}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13076}
+      Script: {instanceID: 13120}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13298}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13364}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13460}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 13698}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 22254}
+      Script: {instanceID: 13808}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -968,6 +1058,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetValue
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
@@ -1030,9 +1126,10 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SetValue
+    className: Measure
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/PlaceIt.unity
-  playerPath: C:/Users/felix/Desktop/Git/Place-It/123.apk
+  - Assets/Scenes/MeasureIt.unity
+  playerPath: C:/Software/GitHub/Place-It/123.apk

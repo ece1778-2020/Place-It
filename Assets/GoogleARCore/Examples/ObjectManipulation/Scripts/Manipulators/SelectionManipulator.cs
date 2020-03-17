@@ -89,35 +89,35 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <param name="gesture">The current gesture.</param>
         protected override void OnEndManipulation(TapGesture gesture)
         {
-            Debug.Log("\n\n\n\n==============On Ending Tap");
+            //Debug.Log("\n\n\n\n==============On Ending Tap");
             if (gesture.WasCancelled)
             {
-                Debug.Log("\n\n\n\n==============gesture.WasCancelled");
+                //Debug.Log("\n\n\n\n==============gesture.WasCancelled");
                 return;
             }
 
             if (ManipulationSystem.Instance == null)
             {
-                Debug.Log("\n\n\n\n==============ManipulationSystem.Instance == null");
+                //Debug.Log("\n\n\n\n==============ManipulationSystem.Instance == null");
                 return;
             }
 
             GameObject target = gesture.TargetObject;
             if (target == gameObject)
             {
-                Debug.Log("\n\n\n\n==============Finish Tap");
-                Debug.Log(target.name);
+                //Debug.Log("\n\n\n\n==============Finish Tap");
+                //Debug.Log(target.name);
                 try{
                     target.tag = "selectable";
-                    Debug.Log("\n\n\n\n==============Added Tag");
+                    //Debug.Log("\n\n\n\n==============Added Tag");
                 }
                 catch{
-                    Debug.Log("\n\n\n\n====== Can't add Tag");
+                    //Debug.Log("\n\n\n\n====== Can't add Tag");
                 }
                 Select();
             }
 
-            Debug.Log("\n\n\n\n==============Init ray");
+            //Debug.Log("\n\n\n\n==============Init ray");
             // Raycast against the location the player touched to search for planes.
             //TrackableHit hit;
             //TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon;
@@ -136,12 +136,12 @@ namespace GoogleARCore.Examples.ObjectManipulation
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
             {
                 Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-                Debug.Log("\n\nDid Hit");
+                //Debug.Log("\n\nDid Hit");
             }
             else
             {
                 Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-                Debug.Log("\n\nDid not Hit");
+                //Debug.Log("\n\nDid not Hit");
             }
             //Debug.Log("\n\n\n\n==============flag="+ flag.ToString());
             //if (!flag)
@@ -149,7 +149,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             //    Debug.Log("\n\n\n\n==============ray cast");
             //    Deselect();
             //}
-            Debug.Log("\n\n\n\n==============End of function");
+            //Debug.Log("\n\n\n\n==============End of function");
         }
 
         /// <summary>

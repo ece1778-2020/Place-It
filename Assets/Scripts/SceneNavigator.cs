@@ -28,7 +28,7 @@ public class SceneNavigator : MonoBehaviour
         AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(SceneName);
         //Don't let the Scene activate until you allow it to
         asyncOperation.allowSceneActivation = false;
-        Debug.Log("Pro :" + asyncOperation.progress);
+        //Debug.Log("Pro :" + asyncOperation.progress);
         //When the load is still in progress, output the Text and progress bar
         while (!asyncOperation.isDone)
         {

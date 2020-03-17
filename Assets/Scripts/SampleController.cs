@@ -96,7 +96,7 @@ public class SampleController : Manipulator
                 else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed )
                 {
                     //floor
-                    Debug.Log("\n\n hit horizontal !!!!!");
+                    //Debug.Log("\n\n hit horizontal !!!!!");
                     
                     int prefabval = SetValue.getprefab();
                     if (prefabval == 0)
