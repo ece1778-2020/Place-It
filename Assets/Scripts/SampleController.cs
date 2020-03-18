@@ -98,17 +98,17 @@ public class SampleController : Manipulator
                     //floor
                     //Debug.Log("\n\n hit horizontal !!!!!");
                     
-                    int prefabval = SetValue.getprefab();
-                    if (prefabval == 0)
-                    {
-                        GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
+                    //int prefabval = SetValue.getprefab();
+                    //if (prefabval == 0)
+                    //{
+                        //GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
+                        //GenerateModels(modelprefab, hit);
+                    //}
+                    //else
+                    //{
+                        GameObject modelprefab = Instantiate(ItemListener.getCurr(), hit.Pose.position, hit.Pose.rotation);
                         GenerateModels(modelprefab, hit);
-                    }
-                    else
-                    {
-                        GameObject modelprefab = Instantiate(chairPrefab, hit.Pose.position, hit.Pose.rotation);
-                        GenerateModels(modelprefab, hit);
-                    }
+                    //}
 
                     currentNumberOfObjects++;
                 }
