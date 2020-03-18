@@ -61,7 +61,7 @@ public class Inventory : MonoBehaviour
         ((RectTransform)btn.transform).sizeDelta = new Vector2(110, 110);
         #if UNITY_EDITOR
         var texture = AssetPreview.GetAssetPreview(obj);
-        btn.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(texture.width / 2, texture.height / 2));
+        btn.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, 110, 110), new Vector2(55, 55));
         #endif
         return btn;
     }
