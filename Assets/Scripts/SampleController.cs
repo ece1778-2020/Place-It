@@ -106,7 +106,7 @@ public class SampleController : Manipulator
                     //}
                     //else
                     //{
-                        GameObject modelprefab = Instantiate(ItemListener.getCurr(), hit.Pose.position, hit.Pose.rotation);
+                        GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
                         GenerateModels(modelprefab, hit);
                     //}
 

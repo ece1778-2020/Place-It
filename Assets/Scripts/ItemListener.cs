@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class ItemListener : MonoBehaviour
 {
-    private static GameObject currGameObject;
+    private static GameObject selectedGameObject;
+
+    private GameObject currGameObject;
     // Start is called before the first frame update
-    //void Start()
-    //{
-        
-    //}
+    void Start()
+    {
+        //currGameObject = gameObject;    
+    }
 
     // Update is called once per frame
     //void Update()
@@ -17,12 +19,23 @@ public class ItemListener : MonoBehaviour
         
     //}
 
-    public void setAsCurrent()
+    public void setCurrGameObject(GameObject obj)
     {
-        currGameObject = gameObject;
+        this.currGameObject = obj;
     }
 
-    public static GameObject getCurr()
+
+    public void setAsSelected()
+    {
+        selectedGameObject = currGameObject;
+    }
+
+    public static GameObject getSelectedGameObject()
+    {
+        return selectedGameObject;
+    }
+
+    public GameObject getCurrGameObject()
     {
         return currGameObject;
     }
