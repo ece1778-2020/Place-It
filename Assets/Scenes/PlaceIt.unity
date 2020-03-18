@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 259715466}
   - component: {fileID: 259715465}
   m_Layer: 5
-  m_Name: Slot
+  m_Name: Slot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 297816265}
   - component: {fileID: 297816264}
   m_Layer: 5
-  m_Name: Slot (2)
+  m_Name: Slot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -522,8 +522,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 404583816}
-        m_MethodName: Setprefab
-        m_Mode: 3
+        m_MethodName: setAsSelected
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 404583811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: facb310f30170af4f8f88c1d5139a039, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a6d0c005b8691a4b9afcbabebb0dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &484960714
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 536229031}
   - component: {fileID: 536229030}
   m_Layer: 5
-  m_Name: Slot (1)
+  m_Name: Slot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -847,6 +847,7 @@ GameObject:
   - component: {fileID: 702094395}
   - component: {fileID: 702094394}
   - component: {fileID: 702094397}
+  - component: {fileID: 702094398}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -916,6 +917,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   Target: {fileID: 0}
+--- !u!114 &702094398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702094393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4aec170f24d54a48b89f7ce1096fdec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fake1: {fileID: 8393443599480871511, guid: 703177d93ffd13146922cbc0482c6143, type: 3}
+  fake2: {fileID: 1074652053159370, guid: dc7c043866b34b24f8d42b1064826ebe, type: 3}
+  fake3: {fileID: 1513252861858756, guid: 3fc53b6161fb160439e0c779a07f321a, type: 3}
 --- !u!1 &982223829
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,6 +944,7 @@ GameObject:
   - component: {fileID: 982223833}
   - component: {fileID: 982223832}
   - component: {fileID: 982223831}
+  - component: {fileID: 982223834}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -997,7 +1014,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 982223832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 982223834}
+        m_MethodName: setAsSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &982223832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,6 +1062,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982223829}
   m_CullTransparentMesh: 0
+--- !u!114 &982223834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982223829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6d0c005b8691a4b9afcbabebb0dedd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1366547166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,13 +1316,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1466472621}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1466472623}
-        m_MethodName: Setprefab
-        m_Mode: 3
+        m_MethodName: setAsSelected
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1336,7 +1376,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1466472618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: facb310f30170af4f8f88c1d5139a039, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a6d0c005b8691a4b9afcbabebb0dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &1562069059 stripped

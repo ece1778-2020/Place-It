@@ -18,12 +18,13 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.ObjectManipulation.ScaleManipulator
     - GoogleARCore.Examples.ObjectManipulation.SelectionManipulator
     - GoogleARCore.Examples.ObjectManipulation.TranslationManipulator
+    - Inventory
+    - ItemListener
     - Measure
     - ObjMovement
     - OpenNew
     - OpenNewScene
     - SampleController
-    - SetValue
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -79,31 +80,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11538}
+      Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11590}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12390}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12664}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 12946}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12964}
+      Script: {instanceID: 12902}
     - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13522}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13808}
+      Script: {instanceID: 13478}
+    - Class: 114
+      Script: {instanceID: 13764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,53 +149,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11418}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11538}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11966}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12512}
+      Script: {instanceID: 12280}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13408}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 13514}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13698}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13808}
+      Script: {instanceID: 13654}
     - Class: 114
-      Script: {instanceID: 23896}
+      Script: {instanceID: 13764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -237,63 +240,65 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11418}
+      Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11538}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11590}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 12038}
+      Script: {instanceID: 11966}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12512}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12280}
     - Class: 114
-      Script: {instanceID: 12664}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12690}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12888}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 13298}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13408}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13514}
+      Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 13698}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13808}
+      Script: {instanceID: 13654}
+    - Class: 114
+      Script: {instanceID: 13764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -319,6 +324,12 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemListener
+  - hash:
+      serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -335,6 +346,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3fcda0518be0bf52698b24d0432b6154
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Inventory
   - hash:
       serializedVersion: 2
       Hash: 626925ef558787b2d85c809198164d19
@@ -503,6 +520,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.ComputerVision
     className: TextureReader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Measure
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -1121,15 +1144,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Measure
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/PlaceIt.unity
   - Assets/Scenes/MeasureIt.unity
-  playerPath: C:/Software/GitHub/Place-It/123.apk
+  playerPath: C:/Users/fredpan/Documents/UnityProject/Place-It/123.apk
