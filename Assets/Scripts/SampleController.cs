@@ -80,44 +80,44 @@ public class SampleController : Manipulator
             else
             {
                 // Instantiate game object at the hit pose.
-                DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
+                //DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
 
                 //Debug.Log("\n\n\n\n\ndetectedPlane.PlaneType=" + detectedPlane.PlaneType.ToString());
                 //Debug.Log("DetectedPlaneType.HorizontalUpwardFacing=" + DetectedPlaneType.HorizontalUpwardFacing.ToString());
                 //Debug.Log("currentNumberOfObjects=" + currentNumberOfObjects.ToString());
                 //Debug.Log("numberOfObjectsAllowed=" + numberOfObjectsAllowed.ToString());
                 //Debug.Log("===>Condition=" + (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed).ToString());
-                if (detectedPlane.PlaneType == DetectedPlaneType.Vertical && currentNumberOfVerticalObjects < numberOfObjectsAllowed)
-                {
-                    GameObject modelprefab = Instantiate(GameObjectVerticalPlanePrefab, hit.Pose.position, hit.Pose.rotation);
-                    GenerateModels(modelprefab, hit);
-                    currentNumberOfVerticalObjects++;
-                }
-                else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed )
-                {
-                    //floor
-                    //Debug.Log("\n\n hit horizontal !!!!!");
-                    
-                    //int prefabval = SetValue.getprefab();
-                    //if (prefabval == 0)
-                    //{
-                        //GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
-                        //GenerateModels(modelprefab, hit);
-                    //}
-                    //else
-                    //{
-                        GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
+                //if (detectedPlane.PlaneType == DetectedPlaneType.Vertical && currentNumberOfVerticalObjects < numberOfObjectsAllowed)
+                // {
+                //GameObject modelprefab = Instantiate(GameObjectVerticalPlanePrefab, hit.Pose.position, hit.Pose.rotation);
+                // GenerateModels(modelprefab, hit);
+                // currentNumberOfVerticalObjects++;
+                //}
+                //else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed )
+                //{
+                //floor
+                //Debug.Log("\n\n hit horizontal !!!!!");
+
+                //int prefabval = SetValue.getprefab();
+                //if (prefabval == 0)
+                //{
+                //GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
+                //GenerateModels(modelprefab, hit);
+                //}
+                //else
+                //{
+                GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
                         GenerateModels(modelprefab, hit);
                     //}
 
-                    currentNumberOfObjects++;
-                }
-                else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalDownwardFacing && currentNumberOfUpObjects < numberOfObjectsAllowed)
-                {
-                    GameObject modelprefab = Instantiate(GameObjectHorizontalUpwardPlanePrefab, hit.Pose.position, hit.Pose.rotation);
-                    GenerateModels(modelprefab, hit);
-                    currentNumberOfUpObjects++;
-                }
+                    //currentNumberOfObjects++;
+                //}
+                //else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalDownwardFacing && currentNumberOfUpObjects < numberOfObjectsAllowed)
+                //{
+                 //   GameObject modelprefab = Instantiate(GameObjectHorizontalUpwardPlanePrefab, hit.Pose.position, hit.Pose.rotation);
+                 //   GenerateModels(modelprefab, hit);
+                 //   currentNumberOfUpObjects++;
+                //}
 
                 
             }
