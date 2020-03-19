@@ -8,6 +8,8 @@ public class Inventory : MonoBehaviour
 {
 
     private static List<GameObject> inventoryItem;
+    private GameObject inventoryCanvas;
+    private int NUMBER_OF_ITEM_DISPLAY_IN_FRONT = 3;
     public GameObject fake1;
     public GameObject fake2;
     public GameObject fake3;
@@ -15,6 +17,7 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        inventoryCanvas = GameObject.Find("Inventory");
         //fake
         addItem(fake1);
         addItem(fake2);
@@ -25,11 +28,12 @@ public class Inventory : MonoBehaviour
     void Update()
     {
         //fake
-        for (var i = 1; i <=3; i++)
+        for (var i = 0; i <3; i++)
         {
-            GameObject slot = GameObject.Find("Slot" + i);
+            //GameObject slot = GameObject.Find("Slot" + i);
             GameObject btn = inventoryItem[i];
-            updateBtn(slot, btn);
+            btn.transform.parent = inventoryCanvas.transform;
+            adjustBtn(btn, i);
         }
     }
 
@@ -59,19 +63,24 @@ public class Inventory : MonoBehaviour
         //set the obj
         btn.GetComponent<ItemListener>().setCurrGameObject(obj);
         ((RectTransform)btn.transform).sizeDelta = new Vector2(110, 110);
-        #if UNITY_EDITOR
+        
+#if UNITY_EDITOR
         var texture = AssetPreview.GetAssetPreview(obj);
-        btn.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, 110, 110), new Vector2(55, 55));
-        #endif
+        btn.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, 110, 110), new Vector2(0, 0));
+#endif
+        
         return btn;
     }
 
-    private void updateBtn(GameObject slot, GameObject btn)
+    private void adjustBtn(GameObject btn, int num)
     {
-        foreach (Transform child in slot.transform)
-        {
-            GameObject.Destroy(child.gameObject);
-        }
-        btn.transform.parent = slot.transform;
+        ((RectTransform)btn.transform).localScale = new Vector3(1, 1, 1);
+        int totalItem = NUMBER_OF_ITEM_DISPLAY_IN_FRONT;
+        float canvasWidth = ((RectTransform)inventoryCanvas.transform).rect.width;
+        //Ex: (250-55)/2 + 55
+        float xPosition = (((500 / (totalItem - 1)) - (110 / 2))/2 + (110/2)) * (num - 1);
+        ((RectTransform)btn.transform).anchoredPosition = new Vector3(xPosition, 0, 0);
+        ((RectTransform)btn.transform).position = new Vector3(xPosition, 0, 0);
+        ((RectTransform)btn.transform).localPosition = new Vector3(xPosition, 0, 0);
     }
 }

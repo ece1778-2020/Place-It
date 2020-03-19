@@ -10,7 +10,7 @@ public class ItemListener : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //currGameObject = gameObject;    
+        selectedGameObject = Instantiate(Resources.Load("Prefabs/MeasureAnchor")) as GameObject;
     }
 
     // Update is called once per frame
