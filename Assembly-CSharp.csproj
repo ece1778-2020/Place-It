@@ -249,6 +249,7 @@
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\ItemListener.cs" />
     <Compile Include="Assets\Scripts\Measure.cs" />
+    <Compile Include="Assets\Scripts\MeasureItController.cs" />
     <Compile Include="Assets\Scripts\ObjMovement.cs" />
     <Compile Include="Assets\Scripts\OpenNewScene.cs" />
     <Compile Include="Assets\Scripts\SampleController.cs" />

@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612256344}
   - component: {fileID: 612256343}
+  - component: {fileID: 612256345}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -176,6 +177,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612256345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612256342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d466870ff9e854286dfa39718651a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstPersonCamera: {fileID: 1894072077}
+  GameObjectVerticalPlanePrefab: {fileID: 1513252861858756, guid: 3fc53b6161fb160439e0c779a07f321a,
+    type: 3}
+  GameObjectHorizontalUpwardPlanePrefab: {fileID: 1513252861858756, guid: 3fc53b6161fb160439e0c779a07f321a,
+    type: 3}
+  ManipulatorPrefab: {fileID: 1122865395318488, guid: 24556cd4924884d9aaa3d80135c8021d,
+    type: 3}
+  tablePrefab: {fileID: 1513252861858756, guid: 3fc53b6161fb160439e0c779a07f321a,
+    type: 3}
+  chairPrefab: {fileID: 1513252861858756, guid: 3fc53b6161fb160439e0c779a07f321a,
+    type: 3}
+  numberOfObjectsAllowed: 10
 --- !u!1001 &819693231
 PrefabInstance:
   m_ObjectHideFlags: 0
