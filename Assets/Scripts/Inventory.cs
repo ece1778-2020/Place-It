@@ -10,6 +10,8 @@ public class Inventory : MonoBehaviour
     private static List<GameObject> inventoryItem;
     private GameObject inventoryCanvas;
     private int NUMBER_OF_ITEM_DISPLAY_IN_FRONT = 3;
+    private int offset = 0;
+    private bool hasSwipeFeature = true;
     public GameObject fake1;
     public GameObject fake2;
     public GameObject fake3;
@@ -22,19 +24,25 @@ public class Inventory : MonoBehaviour
         addItem(fake1);
         addItem(fake2);
         addItem(fake3);
+        addItem(fake3);
+        addItem(fake2);
+        addItem(fake1);
+        checkBtnState();
     }
 
     // Update is called once per frame
     void Update()
     {
         //fake
-        for (var i = 0; i <3; i++)
+        for (var i = 0; i <inventoryItem.Count; i++)
         {
             //GameObject slot = GameObject.Find("Slot" + i);
             GameObject btn = inventoryItem[i];
-            btn.transform.parent = inventoryCanvas.transform;
-            adjustBtn(btn, i);
+            btn.transform.SetParent(inventoryCanvas.transform);
+            adjustBtn(btn, i + offset);
         }
+        checkLeftBtnState();
+        checkRightBtnState();
     }
 
     public static GameObject addItem(GameObject go)
@@ -83,4 +91,64 @@ public class Inventory : MonoBehaviour
         ((RectTransform)btn.transform).position = new Vector3(xPosition, 0, 0);
         ((RectTransform)btn.transform).localPosition = new Vector3(xPosition, 0, 0);
     }
+
+    public void LeftSwipe()
+    {
+        if (offset > 0 - inventoryItem.Count + 3)
+        {
+            offset -= 1;
+        }
+        checkLeftBtnState();
+    }
+
+    public void RightSwipe()
+    {
+        if (offset < 0)
+        {
+            offset += 1;
+        }
+        checkRightBtnState();
+    }
+
+    private void checkBtnState()
+    {
+        if (inventoryItem.Count <= 3)
+        {
+            GameObject.Find("LeftBtn").SetActive(false);
+            GameObject.Find("RightBtn").SetActive(false);
+            hasSwipeFeature = false;
+        }
+    }
+
+    private void checkLeftBtnState()
+    {
+        if (hasSwipeFeature)
+        {
+            if (offset <= 0 - inventoryItem.Count + 3)
+            {
+                GameObject.Find("LeftBtn").GetComponent<Button>().interactable = false;
+            }
+            else
+            {
+                GameObject.Find("LeftBtn").GetComponent<Button>().interactable = true;
+            }
+        }
+        
+    }
+
+    private void checkRightBtnState()
+    {
+        if (hasSwipeFeature)
+        {
+            if (offset >= 0)
+            {
+                GameObject.Find("RightBtn").GetComponent<Button>().interactable = false;
+            }
+            else
+            {
+                GameObject.Find("RightBtn").GetComponent<Button>().interactable = true;
+            }
+        }
+    }
+
 }

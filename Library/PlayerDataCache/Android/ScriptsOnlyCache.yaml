@@ -47,6 +47,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Home.unity:
     - Class: 1
@@ -84,29 +86,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12346}
+      Script: {instanceID: 12348}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 12922}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13480}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,49 +155,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11758}
+      Script: {instanceID: 11760}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 11966}
+      Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12606}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12734}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 13026}
     - Class: 114
-      Script: {instanceID: 13076}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13260}
     - Class: 114
-      Script: {instanceID: 13364}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 13656}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -248,57 +250,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 11926}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 11966}
+      Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 11994}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12606}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 12646}
+      Script: {instanceID: 12648}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12732}
-    - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12734}
     - Class: 114
       Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13076}
+      Script: {instanceID: 13026}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13364}
+      Script: {instanceID: 13260}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1149,4 +1151,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/PlaceIt.unity
   - Assets/Scenes/MeasureIt.unity
-  playerPath: C:/Users/fredpan/Documents/UnityProject/Place-It/1.apk
+  playerPath: C:/Users/fredpan/Documents/UnityProject/Place-It/2.apk

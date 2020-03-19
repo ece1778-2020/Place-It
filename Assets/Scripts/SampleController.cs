@@ -88,25 +88,25 @@ public class SampleController : Manipulator
                 //Debug.Log("numberOfObjectsAllowed=" + numberOfObjectsAllowed.ToString());
                 //Debug.Log("===>Condition=" + (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed).ToString());
                 //if (detectedPlane.PlaneType == DetectedPlaneType.Vertical && currentNumberOfVerticalObjects < numberOfObjectsAllowed)
-               // {
-                    //GameObject modelprefab = Instantiate(GameObjectVerticalPlanePrefab, hit.Pose.position, hit.Pose.rotation);
-                   // GenerateModels(modelprefab, hit);
-                   // currentNumberOfVerticalObjects++;
+                // {
+                //GameObject modelprefab = Instantiate(GameObjectVerticalPlanePrefab, hit.Pose.position, hit.Pose.rotation);
+                // GenerateModels(modelprefab, hit);
+                // currentNumberOfVerticalObjects++;
                 //}
                 //else if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && currentNumberOfObjects < numberOfObjectsAllowed )
                 //{
-                    //floor
-                    //Debug.Log("\n\n hit horizontal !!!!!");
-                    
-                    //int prefabval = SetValue.getprefab();
-                    //if (prefabval == 0)
-                    //{
-                        //GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
-                        //GenerateModels(modelprefab, hit);
-                    //}
-                    //else
-                    //{
-                        GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
+                //floor
+                //Debug.Log("\n\n hit horizontal !!!!!");
+
+                //int prefabval = SetValue.getprefab();
+                //if (prefabval == 0)
+                //{
+                //GameObject modelprefab = Instantiate(tablePrefab, hit.Pose.position, hit.Pose.rotation);
+                //GenerateModels(modelprefab, hit);
+                //}
+                //else
+                //{
+                GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
                         GenerateModels(modelprefab, hit);
                     //}
 

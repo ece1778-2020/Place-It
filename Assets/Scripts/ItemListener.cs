@@ -28,6 +28,7 @@ public class ItemListener : MonoBehaviour
     public void setAsSelected()
     {
         selectedGameObject = currGameObject;
+        Debug.Log("SELECTED: "+ItemListener.getSelectedGameObject().name);
     }
 
     public static GameObject getSelectedGameObject()
