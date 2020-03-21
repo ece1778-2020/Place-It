@@ -20,13 +20,11 @@ public class Inventory : MonoBehaviour
     void Start()
     {
         inventoryCanvas = GameObject.Find("Inventory");
+        RuntimePreviewGenerator.OrthographicMode = true;
+        RuntimePreviewGenerator.PreviewDirection = new Vector3(-1, -1 , -1);
         //fake
         addItem(fake1);
         addItem(fake2);
-        addItem(fake3);
-        addItem(fake3);
-        addItem(fake2);
-        addItem(fake1);
         checkBtnState();
     }
 
@@ -71,11 +69,12 @@ public class Inventory : MonoBehaviour
         //set the obj
         btn.GetComponent<ItemListener>().setCurrGameObject(obj);
         ((RectTransform)btn.transform).sizeDelta = new Vector2(110, 110);
-        
-#if UNITY_EDITOR
-        var texture = AssetPreview.GetAssetPreview(obj);
+
+        //#if UNITY_EDITOR
+        //        Texture2D texture = UnityEditor.AssetPreview.GetAssetPreview(obj);
+        Texture2D texture = RuntimePreviewGenerator.GenerateModelPreview(obj.transform, 110, 110, false);
         btn.GetComponent<Image>().sprite = Sprite.Create(texture, new Rect(0, 0, 110, 110), new Vector2(0, 0));
-#endif
+    //#endif
         
         return btn;
     }

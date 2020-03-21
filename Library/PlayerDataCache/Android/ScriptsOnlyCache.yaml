@@ -48,6 +48,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Home.unity:
     - Class: 1
@@ -151,8 +153,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11234}
-    - Class: 114
-      Script: {instanceID: 11372}
     - Class: 114
       Script: {instanceID: 11494}
     - Class: 114
@@ -1158,4 +1158,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Home.unity
   - Assets/Scenes/PlaceIt.unity
   - Assets/Scenes/MeasureIt.unity
-  playerPath: C:/Users/fredpan/Documents/UnityProject/Place-It/5.apk
+  playerPath: C:/Software/GitHub/Place-It/1233.apk

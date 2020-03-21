@@ -80,9 +80,9 @@ public class SampleController : Manipulator
             else
             {
                 // Instantiate game object at the hit pose.
-                //DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
+                DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
 
-                //Debug.Log("\n\n\n\n\ndetectedPlane.PlaneType=" + detectedPlane.PlaneType.ToString());
+                Debug.Log("\n\n\n\n\ndetectedPlane.PlaneType=" + detectedPlane.PlaneType.ToString());
                 //Debug.Log("DetectedPlaneType.HorizontalUpwardFacing=" + DetectedPlaneType.HorizontalUpwardFacing.ToString());
                 //Debug.Log("currentNumberOfObjects=" + currentNumberOfObjects.ToString());
                 //Debug.Log("numberOfObjectsAllowed=" + numberOfObjectsAllowed.ToString());
@@ -106,8 +106,17 @@ public class SampleController : Manipulator
                 //}
                 //else
                 //{
-                GameObject modelprefab = Instantiate(ItemListener.getSelectedGameObject(), hit.Pose.position, hit.Pose.rotation);
+                if (detectedPlane.PlaneType == DetectedPlaneType.Vertical || detectedPlane.PlaneType == DetectedPlaneType.HorizontalDownwardFacing || detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing)
+                {
+
+                    GameObject currGameObject = ItemListener.getSelectedGameObject();
+                    if (currGameObject != null) {
+                        GameObject modelprefab = Instantiate(currGameObject, hit.Pose.position, hit.Pose.rotation);
                         GenerateModels(modelprefab, hit);
+                    }
+                    
+                }
+                
                     //}
 
                     //currentNumberOfObjects++;
