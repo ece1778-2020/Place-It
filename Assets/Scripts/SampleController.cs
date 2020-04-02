@@ -32,7 +32,7 @@ public class SampleController : Manipulator
         {
             return true;
         }
-        Debug.Log("\nTarget Object not null");
+        //Debug.Log("\nTarget Object not null");
         return false;
     }
 
@@ -50,13 +50,13 @@ public class SampleController : Manipulator
         // If gesture is targeting an existing object we are done.
         if (gesture.TargetObject != null)
         {
-            Debug.Log("\nTarget Object != null");
+            //Debug.Log("\nTarget Object != null");
             return;
         }
        
         if(IsPointerOverUIObject())
         {
-            Debug.Log("\n\nIsPointerOverUIObject");
+            //Debug.Log("\n\nIsPointerOverUIObject");
             return;
         }
         // Raycast against the location the player touched to search for planes.
@@ -82,7 +82,7 @@ public class SampleController : Manipulator
                 // Instantiate game object at the hit pose.
                 DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
 
-                Debug.Log("\n\n\n\n\ndetectedPlane.PlaneType=" + detectedPlane.PlaneType.ToString());
+                //Debug.Log("\n\n\n\n\ndetectedPlane.PlaneType=" + detectedPlane.PlaneType.ToString());
                 //Debug.Log("DetectedPlaneType.HorizontalUpwardFacing=" + DetectedPlaneType.HorizontalUpwardFacing.ToString());
                 //Debug.Log("currentNumberOfObjects=" + currentNumberOfObjects.ToString());
                 //Debug.Log("numberOfObjectsAllowed=" + numberOfObjectsAllowed.ToString());
@@ -108,11 +108,16 @@ public class SampleController : Manipulator
                 //{
                 if (detectedPlane.PlaneType == DetectedPlaneType.Vertical || detectedPlane.PlaneType == DetectedPlaneType.HorizontalDownwardFacing || detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing)
                 {
-
+                    Vector3 pos = hit.Pose.position;
                     GameObject currGameObject = ItemListener.getSelectedGameObject();
                     if (currGameObject != null) {
-                        GameObject modelprefab = Instantiate(currGameObject, hit.Pose.position, hit.Pose.rotation);
+                        //hit.Pose.rotation
+                        GameObject modelprefab = Instantiate(currGameObject, pos, hit.Pose.rotation);
+                        //modelprefab.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+                        //modelprefab.AddComponent<BoxCollider>();
+
                         GenerateModels(modelprefab, hit);
+
                     }
                     
                 }

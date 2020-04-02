@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4293976417129340}
   - component: {fileID: 3480027057534165073}
   m_Layer: 0
-  m_Name: ARCorePawn
+  m_Name: MeasureAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

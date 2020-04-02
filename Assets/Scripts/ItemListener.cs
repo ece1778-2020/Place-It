@@ -6,6 +6,8 @@ public class ItemListener : MonoBehaviour
 {
     private static GameObject selectedGameObject;
 
+    
+
     private GameObject currGameObject;
     // Start is called before the first frame update
     void Start()

@@ -1,0 +1,5 @@
+.so filter=lfs diff=lfs merge=lfs -text
+.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.release.a filter=lfs diff=lfs merge=lfs -text

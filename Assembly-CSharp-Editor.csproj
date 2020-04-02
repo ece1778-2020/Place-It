@@ -82,6 +82,10 @@
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\LogRequestUtils.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\PreprocessBuildBase.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\RequiredOptionalPreprocessBuild.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Editor\TriLibAssetEditor.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Editor\TriLibAssetImporter.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Editor\TriLibAssetPostProcessor.cs" />
+     <Compile Include="Assets\TriLib\TriLib\Editor\TriLibCheckPlugins.cs" />
      <None Include="Assets\GoogleARCore\Editor\ARCoreiOSDependencies.template" />
      <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.122.0.txt" />
  <Reference Include="UnityEditor.TestRunner">
@@ -341,6 +345,9 @@
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
  <HintPath>C:/Software/GitHub/Place-It/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Software/GitHub/Place-It/Assets/TriLib/TriLib/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Software/GitHub/Place-It/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

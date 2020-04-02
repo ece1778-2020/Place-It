@@ -279,6 +279,9 @@
  <Reference Include="Google.Protobuf">
  <HintPath>C:/Software/GitHub/Place-It/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Software/GitHub/Place-It/Assets/TriLib/TriLib/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Software/Unity/Unity Editors Folder/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
  </Reference>
